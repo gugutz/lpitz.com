@@ -6,10 +6,11 @@ import Navbar from '../components/navbar.js'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: `rebeccapurple`,
+      background: `black`,
       marginBottom: `1.45rem`,
     }}
   >
+        <Navbar />
     <div
       style={{
         margin: `0 auto`,
@@ -29,7 +30,6 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-        <Navbar />
   </div>
 )
 
