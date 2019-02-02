@@ -1,7 +1,7 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-import Navbar from '../components/navbar.js'
+// import Navbar from '../components/navbar.js'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-        <Navbar />
+        {/* <Navbar /> */}
     <div
       style={{
         margin: `0 auto`,

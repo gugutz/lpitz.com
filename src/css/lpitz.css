@@ -5,3 +5,9 @@ html {
 header {
   background-color: black;
 }
+.construction {
+    color: white;
+    margin-top: 30%;
+    margin-left: 20%;
+    font-size: 1.2em;
+}
