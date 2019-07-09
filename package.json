@@ -1,11 +1,12 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "lpitz-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Website for Art Director and Designer Leandro Pitz",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "gustavo p borges <gugutz@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.76",
+    "bulma-ui": "^0.14.0",
+    "gatsby": "^2.0.111",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",

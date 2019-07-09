@@ -1,13 +1,19 @@
 html {
   background-color: black;
+  font-family: 'Antiqua Roman', Verdana, Arial;
   }
 
 header {
   background-color: black;
 }
+@font-face {
+    font-family: "Antiqua Roman";
+    src: url("../assets/antiqua-roman.otf");
+}
 .construction {
-    color: white;
-    margin-top: 30%;
-    margin-left: 20%;
-    font-size: 1.2em;
+  font-family: 'Antiqua Roman', Verdana, Arial;
+  color: white;
+  margin-top: 30%;
+  margin-left: 10%;
+  font-size: 2.5em;
 }
