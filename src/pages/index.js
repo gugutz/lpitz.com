@@ -6,17 +6,18 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
+    <Layout>
 
-    <div className='construction'>
+      <div className='construction'>
 
-      <SEO title="Home" keywords={[`art`, `design`, `leandro`, `pitz`]} />
+        <SEO title="Home" keywords={[`art`, `design`, `leandro`, `pitz`]} />
 
-      <p>This site is currently under construction.</p>
-        <p>Meanwhile you can find me at my <a href='mailto:lpitzs19@gmail.com'>e-mail</a>,<br>
-        or send me a DM on my <a href='https://www.instagram.com/l.pitzs/'>instagram</a></p>
+        <p>This site is currently under construction.</p>
+        <p>Meanwhile you can find me at my <a href='mailto:lpitzs19@gmail.com'>e-mail</a></p>
+        <p>or send me a DM on my <a href='https://www.instagram.com/l.pitzs/'>instagram</a></p>
 
-    </div>
-    
+      </div>
+    </Layout> 
 )
 
 export default IndexPage

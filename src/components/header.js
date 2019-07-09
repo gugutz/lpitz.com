@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
-        <Navbar />
+    {/* <Navbar />  */}
     <div
       style={{
         margin: `0 auto`,

@@ -6,7 +6,7 @@ import Link from 'gatsby-link'
 // temporary fix
 const links = [
   {name: 'inicio', href: '/', text: 'Inicio'},
-  {name: 'instagram', href: '/about', text: 'Sobre a empresa'},
+  {name: 'instagram', href: 'https://www.instagram.com/l.pitzs/', text: 'My Instagram'},
   {name: 'tumblr', href: '/contact', text: 'Fale Conosco'}
 ]
 
