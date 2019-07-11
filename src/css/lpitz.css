@@ -1,20 +1,45 @@
 html {
   background-color: black;
   font-family: 'Antiqua Roman', Verdana, Arial;
-  }
+}
 
 header {
   background-color: black;
 }
 @font-face {
-    font-family: "Antiqua Roman";
-    src: url("../assets/antiqua-roman.otf");
+  font-family: "Antiqua Roman";
+  src: url("../assets/antiqua-roman.otf");
 }
 .construction {
   font-family: 'Antiqua Roman', Verdana, Arial;
   color: white;
   margin-top: 13%;
   margin-left: 10%;
-  /* font-size: 1.8em; */
-  font-size: 3vw;
+  font-size: 1.8em;
+  /* font-size: 3vw; */
+}
+@media all and (max-width: 1200px) and (min-width: 800px) {
+  /* Change Resolutions Here */
+  .construction {
+    font-size: 1.5em;
+  }
+}
+@media all and (max-width: 799px) and (min-width: 500px) {
+  /* Change Resolutions Here */
+  .construction {
+    font-size: 1.3em;
+  }
+}
+@media all and (max-width: 499px) and (min-width: 300px) {
+  /* Change Resolutions Here */
+  .construction {
+    font-size: 1.15em;
+  }
+}
+@media all and (max-width: 299px) and (min-width: 200px) {
+  /* Change Resolutions Here */
+  .construction {
+    margin-left: -2px;
+    font-size: 0.8em;
+  }
 }
