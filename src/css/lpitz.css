@@ -15,5 +15,6 @@ header {
   color: white;
   margin-top: 13%;
   margin-left: 10%;
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
+  font-size: 3vw;
 }
